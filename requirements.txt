@@ -1,0 +1,17 @@
+# Telegram Bot Dependencies
+python-telegram-bot[job-queue]>=20.7
+
+# AI and Machine Learning
+google-generativeai>=0.3.0
+
+# Speech Processing
+SpeechRecognition>=3.10.0
+pydub>=0.25.1
+
+# Text-to-Speech
+gradio_client>=0.8.0
+
+# Utilities
+aiofiles>=23.2.0
+requests>=2.31.0
+python-dotenv>=1.0.0
