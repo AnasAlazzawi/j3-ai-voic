@@ -1,0 +1,27 @@
+{
+  "name": "J3 AI Voice Bot",
+  "description": "Intelligent Arabic/English Voice Assistant Bot for Telegram with Gemini AI integration",
+  "repository": "https://github.com/AnasAlazzawi/j3-ai-voic",
+  "keywords": ["telegram", "bot", "ai", "voice", "gemini", "arabic", "speech-recognition", "tts"],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather",
+      "required": true
+    },
+    "GEMINI_API_KEY": {
+      "description": "Your Google Gemini API Key from AI Studio",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
